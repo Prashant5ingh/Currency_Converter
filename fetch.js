@@ -2,6 +2,8 @@ const factPara = document.querySelector("#dogfacts");
 const btn = document.querySelector("#btn")
 
 const URL = "https://dogapi.dog/api/v2/breeds";
+// https://free-apis.github.io/#/browse 
+
 let promise = fetch(URL);
 console.log(promise)
 
